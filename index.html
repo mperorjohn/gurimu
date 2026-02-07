@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Oluwaseun!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- Gift Box Area -->
+        <div class="gift-container" id="giftBox">
+            <div class="box-lid">
+                <div class="lid-ribbon"></div>
+                <div class="bow"></div>
+            </div>
+            <div class="box">
+                <div class="ribbon-vertical"></div>
+                <div class="ribbon-horizontal"></div>
+            </div>
+            <p class="instruction" id="hint">A special gift for a special someone...</p>
+        </div>
+
+        <!-- Hidden Celebration Area -->
+        <div class="celebration-content" id="celebration">
+            <h1>Happy Birthday!</h1>
+            <div class="name">Oluwaseun Faith Mary</div>
+            
+            <div class="message-box">
+                <p id="pickupLine">"Click the button for a special message!"</p>
+                <button class="btn-magic" onclick="nextMessage()">💖 Make Me Blush</button>
+            </div>
+
+            <div class="gallery" id="photoGallery">
+                <!-- Images injected via JS -->
+            </div>
+
+            <!-- Romantic Story Section -->
+            <div class="story-container" id="storyContainer">
+                <h2 class="story-title">My Only Wish</h2>
+                <div class="story-content" id="storyText"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Audio (Hidden) -->
+    <!-- <audio id="bgMusic" loop src="your-music-file.mp3"></audio> -->
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
